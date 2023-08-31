@@ -180,7 +180,7 @@ import { apikey } from "./util.js";
 // String premittive types so can't be edited once assigned, it will always create new string
 // Arrays are reference types, it edited original arrays. Arrays are Objects and Objects are reference types
 
-// JS Array Functions
+// JS Array Functions -> https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array
 
 // Map  Array.prototype.map()
 // The map() method of Array instances creates a new array populated with the results of calling a provided function on every element in the calling array.
