@@ -78,7 +78,7 @@ import { apikey } from "./util.js";
 //     localStorage.setItem('currency', order.currency);
 // }
 
-// function storeOrder({id, currency}) { // destructuring
+// function storeOrder({id, currency, amount}) { // destructuring
 //     localStorage.setItem('id', id);
 //     localStorage.setItem('currency', currency);
 //     console.log(id);
@@ -86,7 +86,81 @@ import { apikey } from "./util.js";
 //     console.log(amount);
 // }
 
-// storeOrder({id: 5, currency: 'USD', amount: 15.99}); 
+//  storeOrder({id: 5, currency: 'USD', amount: 15.99});
 
+// Spread Operator
 
+// const hobbies = ["Cooking", "Reading"];
+// const newHobbies = ["Trekking"];
+// const mergedHobbies = [...hobbies, ...newHobbies];
+// console.log(mergedHobbies);
+
+// const user = {
+//     name: "John",
+//     age: 13
+// };
+
+// const extendedUser = {
+//     isAdmin: true,
+//     ...user
+// }
+
+// console.log(extendedUser);
+
+// Control Structures
+
+// const string1 = "Hello";
+// const string2 = "Hello";
+
+// let obj1 = {
+//     msg: "Hello"
+// }
+
+// let obj2 = {
+//     msg: "Hello"
+// }
+
+// //obj1 = obj2;
+
+// if (obj1 === obj2) {
+//     console.log(true)
+// } else {
+//     console.log(false)
+// }
+
+// if (obj1 == obj2) {
+//     console.log(true)
+// } else {
+//     console.log(false)
+// }
+
+// const hobbies = ["Cooking", "Reading"];
+
+// for (const hobby of hobbies) {
+//     console.log(hobby);
+// }
+
+// Passing Functions as Value
+
+// function handleTimeout() {
+//     console.log("Tiemout!");
+// }
+
+// const handleTimeout2 = () => {
+//     console.log("Tiemout again...!");
+// }
+
+// setTimeout(handleTimeout, 2000);
+// setTimeout(handleTimeout2, 3000);
+
+// setTimeout( () => {
+//     console.log("More Tiemout...!");
+// }, 4000);
+
+// function greeter(greetFn) {
+//     greetFn();
+// }
+
+// //const str = "Hi!";
+// greeter(() => {console.log("Hi!")});
 
